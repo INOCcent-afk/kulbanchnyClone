@@ -372,7 +372,7 @@ main {
       p {
         margin: 0;
         text-align: center;
-        font-size: 8em;
+        font-size: 10vw;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #fff;
         -webkit-text-fill-color: transparent;
@@ -521,6 +521,10 @@ main {
       }
     }
   }
+  .mouseCursorHover {
+    width: 70%;
+    height: 50%;
+  }
 }
 @media (min-width: 950px) {
   section {
@@ -580,10 +584,6 @@ main {
         transform: rotateX(-210deg) translateZ(200px);
       }
     }
-  }
-  .mouseCursorHover {
-    width: 40%;
-    height: 50%;
   }
 }
 @media (min-width: 1500px) {
